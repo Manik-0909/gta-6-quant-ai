@@ -1,0 +1,42 @@
+:root {
+   --black-color: #000;
+   --light-black-color: #434343;
+   --white-color: #fff;
+   --white-color50: #ffffff80;
+   --gray-color: #767676;
+   --light-gray-color: #d9d9d9;
+   --border-color: #787878;
+   --menu-color: #434343;
+   --bg-effect-shape: #ff6f3c;
+   --purple-color: #e224ff;
+   --cyan-color: #00dab6;
+   --menu-overlay: #4b014a;
+   --active-menu-link: #fa90f3;
+   --cards-bg: #1b161bb5;
+   --gradient-color1: linear-gradient(180deg, #8e2de2 -23.94%, #ff6f3c 119.72%);
+   --gradient-color2: linear-gradient(
+      147.76deg,
+      #ffc400 -14.49%,
+      #ffdfac 47.88%,
+      #ffb938 115.25%
+   );
+   --button-gradient: linear-gradient(
+      92.58deg,
+      #9ab2ff -29.75%,
+      #00159f 120.05%
+   );
+   --active-menu-gradient: linear-gradient(-50deg, #ff6f3c, #ff66a3, #ffccb3);
+   --box-shadow1: 0px 4px 4.7px -3px #00000040;
+   --inner-shadow1: -5px 4px 3px -1px #00000040 inset;
+   --main-heading: 42px;
+   --sub-heading1: 32px;
+   --sub-heading2: 30px;
+   --sub-heading3: 28px;
+   --fs-24: 24px;
+   --fs-20: 20px;
+   --fs-16: 16px;
+   --fs-18: 18px;
+   --fs-14: 14px;
+   --fs-12: 12px;
+   --rounded-22: 22px;
+}
