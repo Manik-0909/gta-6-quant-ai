@@ -47,6 +47,14 @@ body {
    width: 200px;
 }
 
+.without-menu .left-content {
+   width: 70px;
+}
+
+.without-menu .right-content {
+   margin-left: 70px;
+}
+
 .dashboard-menu ul li a {
    color: var(--gray-color);
    font-size: var(--fs-18);
@@ -243,6 +251,7 @@ header nav .offcanvas-body ul li .nav-link.active {
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
+   margin-top: 76px;
 }
 
 /* Help Page CSS */
@@ -303,7 +312,8 @@ header nav .offcanvas-body ul li .nav-link.active {
       font-size: var(--fs-24);
    }
 
-   .right-content {
+   .right-content,
+   .without-menu .right-content {
       margin: 0;
       border: none !important;
    }
@@ -344,6 +354,11 @@ header nav .offcanvas-body ul li .nav-link.active {
 
    .fs-16 {
       font-size: var(--fs-14);
+   }
+
+   .news-hero-sec,
+   .help-hero-sec {
+      margin-top: 70px;
    }
 }
 
