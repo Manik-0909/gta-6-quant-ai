@@ -246,7 +246,9 @@ header nav .offcanvas-body ul li .nav-link.active {
 }
 
 .news-hero-sec,
-.help-hero-sec {
+.help-hero-sec,
+.recharge-hero-sec,
+.team-hero-sec {
    height: 170px;
    background-repeat: no-repeat;
    background-position: center;
@@ -259,8 +261,64 @@ header nav .offcanvas-body ul li .nav-link.active {
    background-image: url(../img/hero-img/help.png);
 }
 
+/* Recharge Page CSS */
+.recharge-hero-sec {
+   background-image: url(../img/hero-img/recharge.png);
+}
+
+#pills-tab {
+   background-color: #1d1d1d;
+   width: fit-content;
+   margin: 0 auto;
+   padding: 3px;
+   border-radius: 6px;
+}
+
+#pills-tab .nav-link.active {
+   background: linear-gradient(
+      to right,
+      #323232,
+      rgba(226, 36, 255, 0.6),
+      #323232
+   );
+}
+
+.input-bg {
+   background: #03082140 !important;
+   box-shadow: 1px 3px 3.1px 2px #00000042 inset;
+   border: 0;
+   color: var(--white-color);
+}
+
+.input-bg::placeholder {
+   color: var(--white-color);
+   opacity: 0.14;
+}
+
+/* Team Page CSS */
+.team-hero-sec {
+   background-image: url(../img/hero-img/team.png);
+}
+
+.text-green {
+   color: var(--green-color) !important;
+}
+
 .fs-16 {
    font-size: var(--fs-16);
+}
+
+.w-80 {
+   width: 800px;
+}
+
+::-webkit-scrollbar {
+   width: 0px;
+}
+
+.table > :not(caption) > * > * {
+   background: transparent !important;
+   border: 0;
 }
 
 /* Media Queries */
@@ -357,8 +415,18 @@ header nav .offcanvas-body ul li .nav-link.active {
    }
 
    .news-hero-sec,
-   .help-hero-sec {
+   .help-hero-sec,
+   .recharge-hero-sec,
+   .team-hero-sec {
       margin-top: 70px;
+   }
+
+   .without-menu .fs-24 {
+      font-size: var(--fs-20);
+   }
+
+   .without-menu .custom-border p.small {
+      font-size: var(--fs-12);
    }
 }
 
@@ -394,5 +462,9 @@ header nav .offcanvas-body ul li .nav-link.active {
 
    .fs-16 {
       font-size: var(--fs-12);
+   }
+
+   .without-menu .fs-24 {
+      font-size: var(--fs-16);
    }
 }
