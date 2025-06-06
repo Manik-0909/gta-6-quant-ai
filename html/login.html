@@ -93,20 +93,19 @@
                <div class="row">
                   <div class="col-6">
                      <button
+                        class="btn w-100 py-1 text-white-50 fw-semibold border-0"
+                     >
+                        Register
+                     </button>
+                  </div>
+                  <div class="col-6">
+                     <button
                         class="btn w-100 py-1 text-white borderb fw-semibold"
                         style="
                            backdrop-filter: blur(46px);
                            background: rgba(150, 151, 218, 0.2);
                            border-color: #a6a6a66e !important;
                         "
-                     >
-                        Register
-                     </button>
-                  </div>
-
-                  <div class="col-6">
-                     <button
-                        class="btn border-0 py-1 w-100 text-white-50 fw-semibold"
                      >
                         Login
                      </button>
@@ -115,45 +114,6 @@
             </div>
 
             <form class="row gx-3 gy-sm-2 gy-1">
-               <div class="col-6">
-                  <label
-                     for="fname"
-                     class="form-label fw-medium opacity-50 cursor-pointer"
-                     >First Name</label
-                  >
-                  <input
-                     type="text"
-                     class="form-control input-bg text-white"
-                     id="fname"
-                  />
-               </div>
-
-               <div class="col-6">
-                  <label
-                     for="lname"
-                     class="form-label fw-medium opacity-50 cursor-pointer"
-                     >Last Name</label
-                  >
-                  <input
-                     type="text"
-                     class="form-control input-bg text-white"
-                     id="lname"
-                  />
-               </div>
-
-               <div class="col-12">
-                  <label
-                     for="password"
-                     class="form-label fw-medium opacity-50 cursor-pointer"
-                     >Password</label
-                  >
-                  <input
-                     type="password"
-                     class="form-control input-bg text-white"
-                     id="password"
-                  />
-               </div>
-
                <div class="col-12">
                   <label
                      for="email"
@@ -180,27 +140,20 @@
                   />
                </div>
 
-               <div class="col-12 d-flex gap-2">
-                  <input
-                     class="form-check-input"
-                     type="checkbox"
-                     value=""
-                     id="checkDefault"
-                     checked
-                  />
-                  <label
-                     class="form-check-label text-white-50 fw-semibold cursor-pointer"
+               <div class="col-12 d-flex justify-content-end gap-2">
+                  <a
+                     href="#"
+                     class="text-decoration-none text-white fw-semibold cursor-pointer small w-fit"
                      for="checkDefault"
                   >
-                     I agree to the
-                     <span class="text-cyan">Terms and Conditions</span>
-                  </label>
+                     Forgot Password?
+                  </a>
                </div>
 
                <button
                   class="btn text-nowrap blue-gradient-btn fw-semibold border-0 w-full mt-sm-4 mt-3"
                >
-                  Sigup to Account
+                  Login to Account
                </button>
 
                <div class="d-flex gap-2 align-items-center my-sm-2 my-1">
@@ -222,7 +175,7 @@
                      background: rgba(150, 151, 218, 0.2);
                   "
                >
-                  Sigup with Google
+                  Login with Google
                </button>
             </form>
          </section>

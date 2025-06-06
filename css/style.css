@@ -248,7 +248,8 @@ header nav .offcanvas-body ul li .nav-link.active {
 .news-hero-sec,
 .help-hero-sec,
 .recharge-hero-sec,
-.team-hero-sec {
+.team-hero-sec,
+.invest-hero-sec {
    height: 170px;
    background-repeat: no-repeat;
    background-position: center;
@@ -263,6 +264,11 @@ header nav .offcanvas-body ul li .nav-link.active {
 
 /* Recharge Page CSS */
 .recharge-hero-sec {
+   background-image: url(../img/hero-img/recharge.png);
+}
+
+/* Invest Page CSS */
+.invest-hero-sec {
    background-image: url(../img/hero-img/recharge.png);
 }
 
@@ -457,7 +463,8 @@ header nav .offcanvas-body ul li .nav-link.active {
    .news-hero-sec,
    .help-hero-sec,
    .recharge-hero-sec,
-   .team-hero-sec {
+   .team-hero-sec,
+   .invest-hero-sec {
       margin-top: 70px;
    }
 
@@ -467,6 +474,14 @@ header nav .offcanvas-body ul li .nav-link.active {
 
    .without-menu .custom-border p.small {
       font-size: var(--fs-12);
+   }
+
+   .login-bg header nav {
+      background: none !important;
+   }
+
+   .login-bg header .navbar-brand {
+      visibility: hidden;
    }
 }
 
@@ -506,5 +521,9 @@ header nav .offcanvas-body ul li .nav-link.active {
 
    .without-menu .fs-24 {
       font-size: var(--fs-16);
+   }
+
+   .login-card * {
+      font-size: var(--fs-14) !important;
    }
 }
