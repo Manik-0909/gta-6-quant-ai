@@ -321,6 +321,46 @@ header nav .offcanvas-body ul li .nav-link.active {
    border: 0;
 }
 
+.login-bg {
+   background: url(../img/hero-img/login-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: bottom center;
+}
+
+.login-bg nav {
+   background: #0b0047cc !important;
+}
+
+.login-card {
+   background: linear-gradient(
+      150.68deg,
+      rgba(47, 59, 118, 0.47) -13.1%,
+      rgba(33, 48, 124, 0.47) 96.16%
+   );
+   backdrop-filter: blur(60px);
+   position: relative;
+   max-width: 450px;
+}
+
+.login-card::before {
+   content: "";
+   position: absolute;
+   inset: 0;
+   border-radius: inherit;
+   padding: 1px;
+   background: linear-gradient(152.67deg, #004492 -4.72%, #b7b7b7 119.39%);
+   -webkit-mask: linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+   -webkit-mask-composite: xor;
+   mask-composite: exclude;
+   pointer-events: none;
+}
+
+.text-cyan {
+   color: var(--cyan-color);
+}
+
 /* Media Queries */
 
 /* Small Laptop Screen */
