@@ -150,6 +150,10 @@ header nav .offcanvas-body ul li .nav-link.active {
    box-shadow: var(--inner-shadow1);
 }
 
+.sub-heading2 {
+   font-size: var(--sub-heading2);
+}
+
 .sub-heading3 {
    font-size: var(--sub-heading3);
 }
@@ -192,6 +196,35 @@ header nav .offcanvas-body ul li .nav-link.active {
 }
 
 .blue-gradient-btn::before {
+   content: "";
+   position: absolute;
+   inset: 0;
+   border-radius: inherit;
+   padding: 1px;
+   background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.16) -58.62%,
+      #c0b6b6 94.83%
+   );
+   -webkit-mask: linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+   -webkit-mask-composite: xor;
+   mask-composite: exclude;
+   pointer-events: none;
+}
+
+.gray-gradient-btn {
+   background-color: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.16) -58.62%,
+      #c0b6b6 94.83%
+   );
+   backdrop-filter: blur(70px);
+   color: var(--white-color);
+   position: relative;
+}
+
+.gray-gradient-btn::before {
    content: "";
    position: absolute;
    inset: 0;
@@ -270,6 +303,59 @@ header nav .offcanvas-body ul li .nav-link.active {
 /* Invest Page CSS */
 .invest-hero-sec {
    background-image: url(../img/hero-img/recharge.png);
+}
+
+/* Dashboard Page CSS */
+.dashboard-bg-img1 {
+   background-image: url(../img/dashboard-imgs/1.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.dashboard-bg-img2 {
+   background-image: url(../img/dashboard-imgs/2.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.dashboard-bg-img3 {
+   background-image: url(../img/dashboard-imgs/3.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.dashboard-bg-img4 {
+   background-image: url(../img/dashboard-imgs/4.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.dashboard-bg-img5 {
+   background-image: url(../img/dashboard-imgs/5.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.dashboard-bg-img6 {
+   background-image: url(../img/dashboard-imgs/6.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.dashboard-bg-img7 {
+   background-image: url(../img/dashboard-imgs/7.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.gradient-heading {
+   background: linear-gradient(90deg, #ea60ff -12.89%, #5246ff 95.18%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 
 #pills-tab {

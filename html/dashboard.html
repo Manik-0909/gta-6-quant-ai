@@ -3,9 +3,1195 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Document</title>
+      <!-- Website Favicon  -->
+      <link rel="icon" href="../img/logo.svg" />
+      <!-- Bootstrap CSS File -->
+      <link rel="stylesheet" href="../css/bootstrap.min.css" />
+      <!-- Custom CSS File -->
+      <link rel="stylesheet" href="../css/style.css" />
+      <title>GTA6 AI BOT</title>
    </head>
    <body>
-      Dashboard
+      <div class="main-wrapper position-relative overflow-x-hidden">
+         <!-- Dashboard Content -->
+         <div
+            class="left-content py-4 px-3 w-fit border-end border-secondary min-vh-100 position-fixed left-0 z-1 bg-black d-md-block d-none"
+         >
+            <div class="d-flex align-items-center gap-1">
+               <img src="../img/logo.svg" alt="Logo" width="40" height="28" />
+               <h5 class="fw-semibold mb-0">GTA6 AI BOT</h5>
+            </div>
+            <div class="mt-5 pt-3 dashboard-menu">
+               <ul class="list-unstyled">
+                  <li>
+                     <a
+                        href="../html/dashboard.html"
+                        class="text-decoration-none d-flex gap-2 align-items-center w-fit active"
+                     >
+                        <div
+                           class="d-flex align-items-center justify-content-center menu-icon"
+                        >
+                           <img
+                              src="../img/icons/dashboard-icon/ic-home.svg"
+                              alt="Home Icon"
+                           />
+                        </div>
+                        Dashboard</a
+                     >
+                  </li>
+
+                  <li class="mt-3 pt-1">
+                     <a
+                        href="../html/quantity.html"
+                        class="text-decoration-none d-flex gap-2 align-items-center w-fit"
+                     >
+                        <div
+                           class="d-flex align-items-center justify-content-center menu-icon"
+                        >
+                           <img
+                              src="../img/icons/dashboard-icon/ic-quantity.svg"
+                              alt="Quantity Icon"
+                           />
+                        </div>
+                        Quantity</a
+                     >
+                  </li>
+
+                  <li class="mt-3 pt-1">
+                     <a
+                        href="../html/invest.html"
+                        class="text-decoration-none d-flex gap-2 align-items-center w-fit"
+                     >
+                        <div
+                           class="d-flex align-items-center justify-content-center menu-icon"
+                        >
+                           <img
+                              src="../img/icons/dashboard-icon/ic-invest.svg"
+                              alt="Invest Icon"
+                           />
+                        </div>
+                        Invest</a
+                     >
+                  </li>
+
+                  <li class="mt-3 pt-1">
+                     <a
+                        href="../html/invite.html"
+                        class="text-decoration-none d-flex gap-2 align-items-center w-fit"
+                     >
+                        <div
+                           class="d-flex align-items-center justify-content-center menu-icon"
+                        >
+                           <img
+                              src="../img/icons/dashboard-icon/ic-invite.svg"
+                              alt="Invite Icon"
+                           />
+                        </div>
+                        Invite Friends</a
+                     >
+                  </li>
+
+                  <li class="mt-3 pt-1">
+                     <a
+                        href="../html/dashboard.html"
+                        class="text-decoration-none d-flex gap-2 align-items-center w-fit"
+                     >
+                        <div
+                           class="d-flex align-items-center justify-content-center menu-icon"
+                        >
+                           <img
+                              src="../img/icons/dashboard-icon/ic-user.svg"
+                              alt="User Icon"
+                           />
+                        </div>
+                        Me</a
+                     >
+                  </li>
+               </ul>
+            </div>
+         </div>
+
+         <!-- Main Content -->
+         <div class="right-content min-vh-100 z-2 position-relative">
+            <div
+               class="px-3 py-3 border-bottom border-secondary header-menu d-md-block d-none"
+            >
+               <div
+                  class="d-flex justify-content-between align-items-center gap-3"
+               >
+                  <ul
+                     class="list-unstyled mb-0 d-flex gap-xxl-4 gap-lg-3 gap-2 flex-wrap"
+                  >
+                     <li>
+                        <a
+                           href="../html/recharge.html"
+                           class="text-decoration-none d-flex gap-2 align-items-center w-fit d-flex align-items-center"
+                        >
+                           Recharge
+                           <img
+                              src="../img/icons/ic-dropdown.svg"
+                              alt="Dropdown Icon"
+                              class="dropdown-img"
+                           />
+                        </a>
+                     </li>
+
+                     <li>
+                        <a
+                           href="../html/withdraw.html"
+                           class="text-decoration-none d-flex gap-2 align-items-center w-fit"
+                        >
+                           Withdraw</a
+                        >
+                     </li>
+
+                     <li>
+                        <a
+                           href="../html/team.html"
+                           class="text-decoration-none d-flex gap-2 align-items-center w-fit"
+                        >
+                           Team</a
+                        >
+                     </li>
+
+                     <li>
+                        <a
+                           href="../html/activity.html"
+                           class="text-decoration-none d-flex gap-2 align-items-center w-fit"
+                        >
+                           Activity</a
+                        >
+                     </li>
+
+                     <li>
+                        <a
+                           href="../html/invite.html"
+                           class="text-decoration-none d-flex gap-2 align-items-center w-fit d-flex align-items-center"
+                        >
+                           Invite Freinds
+                           <img
+                              src="../img/icons/ic-fire.svg"
+                              alt="Fire Icon"
+                           />
+                        </a>
+                     </li>
+
+                     <li>
+                        <a
+                           href="../html/agent.html"
+                           class="text-decoration-none d-flex gap-2 align-items-center w-fit d-flex align-items-center"
+                        >
+                           Agent Cooperation
+                           <img
+                              src="../img/icons/ic-fire.svg"
+                              alt="Fire Icon"
+                           />
+                        </a>
+                     </li>
+
+                     <li>
+                        <a
+                           href="../html/news.html"
+                           class="text-decoration-none d-flex gap-2 align-items-center w-fit"
+                        >
+                           News
+                        </a>
+                     </li>
+
+                     <li>
+                        <a
+                           href="../html/help.html"
+                           class="text-decoration-none d-flex gap-2 align-items-center w-fit"
+                        >
+                           Help
+                        </a>
+                     </li>
+                  </ul>
+
+                  <div class="d-flex gap-xl-3 gap-2 align-items-center">
+                     <div
+                        class="d-flex align-items-center border border-secondary px-12 py-1 w-fit rounded-pill gap-2 cursor-pointer"
+                     >
+                        <div class="position-relative w-fit">
+                           <img
+                              src="../img/icons/ic-message.svg"
+                              alt="Message Icon"
+                           />
+                           <div
+                              class="p-1 d-block bg-danger w-fit rounded-circle position-absolute top-0"
+                              style="right: -6px"
+                           ></div>
+                        </div>
+                        <p class="fw-semibold mb-0 text-nowrap">2 new</p>
+                     </div>
+
+                     <div
+                        class="d-flex align-items-center border border-secondary px-12 py-1 w-fit rounded-pill gap-2 cursor-pointer text-nowrap"
+                     >
+                        <img src="../img/icons/ic-flag.svg" alt="Flag Icon" />
+                        <div class="fw-semibold mb-0">
+                           Eng
+                           <img
+                              src="../img/icons/ic-dropdown.svg"
+                              alt="Dropdown Icon"
+                              style="filter: brightness(2)"
+                           />
+                        </div>
+                     </div>
+
+                     <img
+                        src="../img/icons/ic-profile.svg"
+                        alt="Profile Picture"
+                        class="cursor-pointer"
+                     />
+                  </div>
+               </div>
+            </div>
+
+            <div class="pb-5">
+               <!-- Mobile View Header -->
+               <header class="d-md-none d-block">
+                  <nav
+                     class="navbar navbar-expand-md fixed-top py-3 bg-transparent"
+                     id="mainHeader"
+                     data-bs-theme="dark"
+                  >
+                     <div class="container-fluid">
+                        <a
+                           class="navbar-brand d-flex align-items-center gap-1"
+                           href="#"
+                        >
+                           <img src="../img/logo.svg" alt="Logo" width="32" />
+                           <h6 class="fw-semibold mb-0">Quant AI</h6>
+                        </a>
+                        <button
+                           class="navbar-toggler border-0 shadow-none"
+                           type="button"
+                           data-bs-toggle="offcanvas"
+                           data-bs-target="#offcanvasNavbar"
+                           aria-controls="offcanvasNavbar"
+                           aria-label="Toggle navigation"
+                        >
+                           <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div
+                           class="offcanvas offcanvas-end bg-menu-overlay"
+                           tabindex="-1"
+                           id="offcanvasNavbar"
+                           aria-labelledby="offcanvasNavbarLabel"
+                        >
+                           <div class="offcanvas-header">
+                              <a
+                                 class="navbar-brand d-flex align-items-center gap-1"
+                                 href="#"
+                              >
+                                 <img
+                                    src="../img/logo.svg"
+                                    alt="Logo"
+                                    width="32"
+                                 />
+                                 <h6 class="fw-semibold mb-0">Quant AI</h6>
+                              </a>
+                              <button
+                                 type="button"
+                                 class="btn-close border-0 shadow-none"
+                                 data-bs-dismiss="offcanvas"
+                                 aria-label="Close"
+                              ></button>
+                           </div>
+                           <div class="offcanvas-body">
+                              <ul
+                                 class="navbar-nav justify-content-end flex-grow-1 pe-3"
+                              >
+                                 <li class="nav-item">
+                                    <a
+                                       class="nav-link active"
+                                       aria-current="page"
+                                       href="../html/dashboard.html"
+                                       >Dashboard</a
+                                    >
+                                 </li>
+
+                                 <li class="nav-item">
+                                    <a
+                                       class="nav-link"
+                                       href="../html/quantity.html"
+                                       >Quantity</a
+                                    >
+                                 </li>
+
+                                 <li class="nav-item">
+                                    <a
+                                       class="nav-link"
+                                       href="../html/invest.html"
+                                       >Invest</a
+                                    >
+                                 </li>
+
+                                 <li class="nav-item">
+                                    <a
+                                       class="nav-link"
+                                       href="../html/invite.html"
+                                       >Invite Friends</a
+                                    >
+                                 </li>
+
+                                 <li class="nav-item">
+                                    <a
+                                       class="nav-link"
+                                       href="../html/dashboard.html"
+                                       >Me</a
+                                    >
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </nav>
+               </header>
+
+               <!-- Hero Section -->
+               <!-- <section
+                  class="invest-hero-sec d-flex align-items-center justify-content-center flex-column mt-md-0"
+               >
+                  <h1 class="heading-font mb-0 sub-heading2">Invest</h1>
+                  <p class="mb-0 mt-0 fs-20 text-white opacity-75">
+                     Invest and reap the benefits
+                  </p>
+               </section> -->
+
+               <!-- Card Section -->
+               <section class="container-fluid">
+                  <div class="row gy-3">
+                     <div class="col-4 d-grid">
+                        <div
+                           class="d-flex flex-column justify-content-between align-items-start dashboard-bg-img1 rounded-22 p-3"
+                        >
+                           <div>
+                              <h2 class="heading-font mb-0 sub-heading2">
+                                 Drop In<span
+                                    style="
+                                       font-family: 'Courier New', Courier,
+                                          monospace;
+                                    "
+                                    >,</span
+                                 >
+                                 Buy Up<span
+                                    style="
+                                       font-family: 'Courier New', Courier,
+                                          monospace;
+                                    "
+                                    >,</span
+                                 >
+                                 <br />
+                                 <span class="gradient-heading"> Cash Out</span>
+                              </h2>
+
+                              <p class="fw-semibold gray-color">
+                                 Join now for instant rewards
+                              </p>
+                           </div>
+
+                           <button
+                              class="btn blue-gradient-btn fw-semibold px-4 border-0 mt-5"
+                           >
+                              Start Trading
+                           </button>
+                        </div>
+                     </div>
+
+                     <div class="col-4 d-flex flex-column gap-3">
+                        <div
+                           class="d-flex flex-column justify-content-between align-items-start dashboard-bg-img2 rounded-22 p-3"
+                        >
+                           <div>
+                              <h2 class="heading-font mb-0 fs-20">
+                                 Fuel the Hustle <br />
+                                 Watch it <br />
+                                 Multiply
+                              </h2>
+                           </div>
+
+                           <button
+                              class="btn gray-gradient-btn fw-semibold px-4 border-0 mt-5"
+                           >
+                              Recharge Now
+                           </button>
+                        </div>
+
+                        <div
+                           class="d-flex flex-column justify-content-between align-items-end dashboard-bg-img3 rounded-22 p-3 text-end"
+                        >
+                           <div>
+                              <h2 class="heading-font mb-0 fs-20">
+                                 Invest Smart <br />
+                                 Stack Hard <br />
+                                 Withdraw Fast
+                              </h2>
+                           </div>
+
+                           <button
+                              class="btn gray-gradient-btn fw-semibold px-5 border-0 mt-5"
+                           >
+                              Withdraw
+                           </button>
+                        </div>
+                     </div>
+
+                     <div class="col-4 d-grid">
+                        <div class="dashboard-bg-img4 rounded-22 p-3">
+                           <div>
+                              <h2 class="heading-font mb-0 sub-heading2">
+                                 Turn <br />
+                                 Digital <br />
+                                 Moves <br />
+                                 Into Real <br />
+                                 Gains
+                              </h2>
+                           </div>
+
+                           <button
+                              class="btn gray-gradient-btn fw-semibold px-4 border-0 mt-5 px-5"
+                           >
+                              Recruit
+                           </button>
+                        </div>
+                     </div>
+
+                     <div class="col-6">
+                        <div
+                           class="dashboard-bg-img5 rounded-22 p-3 custom-border"
+                        >
+                           <div class="d-flex align-items-center gap-2">
+                              <h6 class="fw-semibold text-white fs-20 mb-0">
+                                 My Assets
+                              </h6>
+
+                              <img
+                                 src="../img/icons/dashboard-icon/ic-eye.svg"
+                                 alt="Eye Icon"
+                                 width="24"
+                                 class="cursor-pointer"
+                              />
+                           </div>
+
+                           <div
+                              class="d-flex align-items-end justify-content-between"
+                           >
+                              <div>
+                                 <div class="mt-sm-4 mt-3">
+                                    <h5 class="text-white-50 fw-semibold mb-0">
+                                       Total Assets
+                                    </h5>
+                                    <p
+                                       class="mb-0 fw-semibold sub-heading3 text-white"
+                                    >
+                                       2,430.56 USDT
+                                    </p>
+                                 </div>
+
+                                 <div class="mt-sm-3 mt-2">
+                                    <h5 class="text-white-50 fw-semibold mb-0">
+                                       Quantitative Account
+                                    </h5>
+                                    <p
+                                       class="mb-0 fw-semibold sub-heading3 text-white"
+                                    >
+                                       200.34 USDT
+                                    </p>
+                                 </div>
+                              </div>
+
+                              <button
+                                 class="btn blue-gradient-btn fw-semibold border-0 px-5"
+                              >
+                                 Recharge
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col-6 d-grid">
+                        <div
+                           class="dashboard-bg-img6 rounded-22 p-3 custom-border"
+                        >
+                           <h5 class="fs-20 fw-semibold mb-3">
+                              Withdrawal Record
+                           </h5>
+
+                           <div
+                              class="mb-2 d-flex justify-content-between gap-3 align-items-center"
+                           >
+                              <h5 class="fs-20 fw-semibold mb-0 text-white-50">
+                                 k***jj37m@yahoo.com
+                              </h5>
+
+                              <p class="fs-20 fw-semibold mb-0 text-green">
+                                 +130.70 USDT
+                              </p>
+                           </div>
+
+                           <div
+                              class="mb-2 d-flex justify-content-between gap-3 align-items-center"
+                           >
+                              <h5 class="fs-20 fw-semibold mb-0 text-white-50">
+                                 i***aktym@outlook.com
+                              </h5>
+
+                              <p class="fs-20 fw-semibold mb-0 text-green">
+                                 +10.60 USDT
+                              </p>
+                           </div>
+
+                           <div
+                              class="mb-2 d-flex justify-content-between gap-3 align-items-center"
+                           >
+                              <h5 class="fs-20 fw-semibold mb-0 text-white-50">
+                                 k***jj37m@yahoo.com
+                              </h5>
+
+                              <p class="fs-20 fw-semibold mb-0 text-green">
+                                 +1915.67 USDT
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+
+               <!-- Core Cooperative Financial Section -->
+               <section class="container-fluid mt-4">
+                  <div class="custom-border p-4 rounded-22">
+                     <h5 class="fs-20 fw-semibold mb-3">
+                        Core Cooperative Financial Institutions
+                     </h5>
+                     <div class="row gy-3">
+                        <div class="col-2">
+                           <div
+                              class="custom-border rounded-pill py-2 px-3 d-flex w-fit align-items-center gap-2 h-100"
+                           >
+                              <img
+                                 src="../img/icons/dashboard-icon/ic-finance1.svg"
+                                 alt="Finance Img 1"
+                              />
+                              <h6 class="mb-0 fw-medium">Binance</h6>
+                           </div>
+                        </div>
+
+                        <div class="col-2">
+                           <div
+                              class="custom-border rounded-pill py-2 px-3 d-flex w-fit align-items-center gap-2 h-100"
+                           >
+                              <img
+                                 src="../img/icons/dashboard-icon/ic-finance2.svg"
+                                 alt="Finance Img 1"
+                              />
+                              <h6 class="mb-0 fw-medium">Kraken</h6>
+                           </div>
+                        </div>
+
+                        <div class="col-2">
+                           <div
+                              class="custom-border rounded-pill py-2 px-3 d-flex w-fit align-items-center gap-2 h-100"
+                           >
+                              <img
+                                 src="../img/icons/dashboard-icon/ic-finance3.svg"
+                                 alt="Finance Img 1"
+                              />
+                              <h6 class="mb-0 fw-medium">Kucoin</h6>
+                           </div>
+                        </div>
+
+                        <div class="col-2">
+                           <div
+                              class="custom-border rounded-pill py-2 px-3 d-flex w-fit align-items-center gap-2 h-100"
+                           >
+                              <img
+                                 src="../img/icons/dashboard-icon/ic-finance4.svg"
+                                 alt="Finance Img 1"
+                              />
+                              <h6 class="mb-0 fw-medium">Coinbase</h6>
+                           </div>
+                        </div>
+
+                        <div class="col-2">
+                           <div
+                              class="custom-border rounded-pill py-2 px-3 d-flex w-fit align-items-center gap-2 h-100"
+                           >
+                              <img
+                                 src="../img/icons/dashboard-icon/ic-finance5.svg"
+                                 alt="Finance Img 1"
+                              />
+                              <h6 class="mb-0 fw-medium">OKX</h6>
+                           </div>
+                        </div>
+
+                        <div class="col-2">
+                           <div
+                              class="custom-border rounded-pill py-2 px-3 d-flex w-fit align-items-center gap-2 h-100"
+                           >
+                              <img
+                                 src="../img/icons/dashboard-icon/ic-finance6.svg"
+                                 alt="Finance Img 1"
+                              />
+                              <h6 class="mb-0 fw-medium">Bitstamp</h6>
+                           </div>
+                        </div>
+
+                        <div class="col-2">
+                           <div
+                              class="custom-border rounded-pill py-2 px-3 d-flex w-fit align-items-center gap-2 h-100"
+                           >
+                              <img
+                                 src="../img/icons/dashboard-icon/ic-finance7.svg"
+                                 alt="Finance Img 1"
+                              />
+                              <h6 class="mb-0 fw-medium">Bitfinex</h6>
+                           </div>
+                        </div>
+
+                        <div class="col-2">
+                           <div
+                              class="custom-border rounded-pill py-2 px-3 d-flex w-fit align-items-center gap-2 h-100"
+                           >
+                              <img
+                                 src="../img/icons/dashboard-icon/ic-finance8.svg"
+                                 alt="Finance Img 1"
+                              />
+                              <h6 class="mb-0 fw-medium">Bybit</h6>
+                           </div>
+                        </div>
+
+                        <div class="col-2">
+                           <div
+                              class="custom-border rounded-pill py-2 px-3 d-flex w-fit align-items-center gap-2 h-100"
+                           >
+                              <img
+                                 src="../img/icons/dashboard-icon/ic-finance9.svg"
+                                 alt="Finance Img 1"
+                              />
+                              <h6 class="mb-0 fw-medium">Bitget</h6>
+                           </div>
+                        </div>
+
+                        <div class="col-2">
+                           <div
+                              class="custom-border rounded-pill py-2 px-3 d-flex w-fit align-items-center gap-2 h-100"
+                           >
+                              <img
+                                 src="../img/icons/dashboard-icon/ic-finance10.svg"
+                                 alt="Finance Img 1"
+                              />
+                              <h6 class="mb-0 fw-medium">Gate.io</h6>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+
+               <!-- Core Cooperative Financial Section -->
+               <section class="container-fluid mt-4">
+                  <div class="dashboard-bg-img7 p-4 rounded-22">
+                     <div class="row">
+                        <div class="col-6">
+                           <h5 class="fs-20 fw-semibold mb-3">
+                              About Quant AI
+                           </h5>
+                           <p>
+                              Quant AI is a cryptocurrency investment platform
+                              that focuses on intelligent quantitative trading ,
+                              with the goal of allowing users to make money
+                              simply, safely and stably . The platform uses AI
+                              algorithms and big data analysis to monitor the
+                              market around the clock, automatically looking for
+                              trading opportunities to buy low and sell high ,
+                              allowing users to easily obtain profits. Quant
+                              AI's profit model is based on market price
+                              fluctuations . It helps users buy and sell quickly
+                              through intelligent programs to achieve stable
+                              profits . Regardless of whether the market goes up
+                              or down, the system will automatically adjust the
+                              trading strategy to ensure the safety of funds and
+                              maximize profits. Users do not need professional
+                              trading experience. Just turn on quantification
+                              with one click and you can enjoy continuous
+                              passive income .
+                           </p>
+                        </div>
+
+                        <div class="col-6">
+                           <div>
+                              <img
+                                 src="../img/logo.svg"
+                                 alt="Logo"
+                                 width="85"
+                                 class="ms-auto d-block"
+                              />
+
+                              <div>
+                                 <div>
+                                    <div
+                                       class="d-flex align-items-center gap-2 mb-1"
+                                    >
+                                       <div
+                                          class="p-1 bg-primary w-fit rounded-22"
+                                       ></div>
+                                       <h6 class="fs-18 fw-semibold mb-0">
+                                          Safe Operation
+                                       </h6>
+                                    </div>
+                                    <p
+                                       class="mb-0 ps-3 text-green small fw-semibold"
+                                    >
+                                       266Days
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+
+               <!-- Investment Cards Section -->
+               <!-- <section
+                  class="container-fluid mt-5 px-3 z-3 position-relative account-details"
+               >
+                  <div class="mt-4">
+                     <ul
+                        class="nav nav-pills mb-5 p-0 d-md-flex d-none"
+                        id="pills-tab"
+                        role="tablist"
+                     >
+                        <li class="nav-item" role="presentation">
+                           <button
+                              class="nav-link active text-white-50 fw-semibold small py-1"
+                              id="pill-smartInvest-tab"
+                              data-bs-toggle="pill"
+                              data-bs-target="#pill-smartInvest"
+                              type="button"
+                              role="tab"
+                              aria-controls="pill-smartInvest"
+                              aria-selected="true"
+                           >
+                              Smart Investment
+                           </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                           <button
+                              class="nav-link text-white-50 fw-semibold small py-1"
+                              type="button"
+                           >
+                              Track Record
+                           </button>
+                        </li>
+                     </ul>
+                     <div class="tab-content" id="pills-tabContent">
+                        <div
+                           class="tab-pane fade show active"
+                           id="pill-smartInvest"
+                           role="tabpanel"
+                           aria-labelledby="pill-smartInvest-tab"
+                           tabindex="0"
+                        >
+                           <div class="row gy-4">
+                              <div class="col-xl-4 col-md-6 d-grid">
+                                 <div
+                                    class="rounded-22 px-3 py-4 custom-border cards-bg"
+                                 >
+                                    <div
+                                       class="d-flex gap-2 align-items-center mb-md-4 mb-3"
+                                    >
+                                       <img
+                                          src="../img/icons/ic-bitcoin.svg"
+                                          alt="Bitcoin"
+                                       />
+                                       <h5
+                                          class="fs-20 text-white mb-0 fw-bold"
+                                       >
+                                          Investment Funds 5
+                                       </h5>
+                                    </div>
+
+                                    <div class="row gy-3">
+                                       <div class="col-6">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Price
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-white"
+                                          >
+                                             20,000 USDT
+                                          </p>
+                                       </div>
+
+                                       <div class="col-6 text-end">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Daily Rate
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-green"
+                                          >
+                                             30.00%
+                                          </p>
+                                       </div>
+
+                                       <div class="col-6">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Cycle
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-white"
+                                          >
+                                             60 Days
+                                          </p>
+                                       </div>
+
+                                       <div class="col-12">
+                                          <button
+                                             class="btn blue-gradient-btn fw-semibold border-0 w-100 mt-3"
+                                          >
+                                             Invest
+                                          </button>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+
+                              <div class="col-xl-4 col-md-6 d-grid">
+                                 <div
+                                    class="rounded-22 px-3 py-4 custom-border cards-bg"
+                                 >
+                                    <div
+                                       class="d-flex gap-2 align-items-center mb-md-4 mb-3"
+                                    >
+                                       <img
+                                          src="../img/icons/ic-bitcoin.svg"
+                                          alt="Bitcoin"
+                                       />
+                                       <h5
+                                          class="fs-20 text-white mb-0 fw-bold"
+                                       >
+                                          Investment Funds 4
+                                       </h5>
+                                    </div>
+
+                                    <div class="row gy-3">
+                                       <div class="col-6">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Price
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-white"
+                                          >
+                                             5,000 USDT
+                                          </p>
+                                       </div>
+
+                                       <div class="col-6 text-end">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Daily Rate
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-green"
+                                          >
+                                             26.00%
+                                          </p>
+                                       </div>
+
+                                       <div class="col-6">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Cycle
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-white"
+                                          >
+                                             45 Days
+                                          </p>
+                                       </div>
+
+                                       <div class="col-12">
+                                          <button
+                                             class="btn blue-gradient-btn fw-semibold border-0 w-100 mt-3"
+                                          >
+                                             Invest
+                                          </button>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+
+                              <div class="col-xl-4 col-md-6 d-grid">
+                                 <div
+                                    class="rounded-22 px-3 py-4 custom-border cards-bg"
+                                 >
+                                    <div
+                                       class="d-flex gap-2 align-items-center mb-md-4 mb-3"
+                                    >
+                                       <img
+                                          src="../img/icons/ic-bitcoin.svg"
+                                          alt="Bitcoin"
+                                       />
+                                       <h5
+                                          class="fs-20 text-white mb-0 fw-bold"
+                                       >
+                                          Investment Funds 3
+                                       </h5>
+                                    </div>
+
+                                    <div class="row gy-3">
+                                       <div class="col-6">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Price
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-white"
+                                          >
+                                             2,000 USDT
+                                          </p>
+                                       </div>
+
+                                       <div class="col-6 text-end">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Daily Rate
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-green"
+                                          >
+                                             23.00%
+                                          </p>
+                                       </div>
+
+                                       <div class="col-6">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Cycle
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-white"
+                                          >
+                                             30 Days
+                                          </p>
+                                       </div>
+
+                                       <div class="col-12">
+                                          <button
+                                             class="btn blue-gradient-btn fw-semibold border-0 w-100 mt-3"
+                                          >
+                                             Invest
+                                          </button>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+
+                              <div class="col-xl-4 col-md-6 d-grid">
+                                 <div
+                                    class="rounded-22 px-3 py-4 custom-border cards-bg"
+                                 >
+                                    <div
+                                       class="d-flex gap-2 align-items-center mb-md-4 mb-3"
+                                    >
+                                       <img
+                                          src="../img/icons/ic-bitcoin.svg"
+                                          alt="Bitcoin"
+                                       />
+                                       <h5
+                                          class="fs-20 text-white mb-0 fw-bold"
+                                       >
+                                          Investment Funds 2
+                                       </h5>
+                                    </div>
+
+                                    <div class="row gy-3">
+                                       <div class="col-6">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Price
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-white"
+                                          >
+                                             500 USDT
+                                          </p>
+                                       </div>
+
+                                       <div class="col-6 text-end">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Daily Rate
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-green"
+                                          >
+                                             20.00%
+                                          </p>
+                                       </div>
+
+                                       <div class="col-6">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Cycle
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-white"
+                                          >
+                                             15 Days
+                                          </p>
+                                       </div>
+
+                                       <div class="col-12">
+                                          <button
+                                             class="btn blue-gradient-btn fw-semibold border-0 w-100 mt-3"
+                                          >
+                                             Invest
+                                          </button>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+
+                              <div class="col-xl-4 col-md-6 d-grid">
+                                 <div
+                                    class="rounded-22 px-3 py-4 custom-border cards-bg"
+                                 >
+                                    <div
+                                       class="d-flex gap-2 align-items-center mb-md-4 mb-3"
+                                    >
+                                       <img
+                                          src="../img/icons/ic-bitcoin.svg"
+                                          alt="Bitcoin"
+                                       />
+                                       <h5
+                                          class="fs-20 text-white mb-0 fw-bold"
+                                       >
+                                          Investment Funds 1
+                                       </h5>
+                                    </div>
+
+                                    <div class="row gy-3">
+                                       <div class="col-6">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Price
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-white"
+                                          >
+                                             100 USDT
+                                          </p>
+                                       </div>
+
+                                       <div class="col-6 text-end">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Daily Rate
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-green"
+                                          >
+                                             18.00%
+                                          </p>
+                                       </div>
+
+                                       <div class="col-6">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Cycle
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-white"
+                                          >
+                                             7 Days
+                                          </p>
+                                       </div>
+
+                                       <div class="col-12">
+                                          <button
+                                             class="btn blue-gradient-btn fw-semibold border-0 w-100 mt-3"
+                                          >
+                                             Invest
+                                          </button>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section> -->
+            </div>
+         </div>
+
+         <!-- Blob Effect Images -->
+         <div>
+            <img
+               src="../img/blob-effect.png"
+               alt="Blob Effect"
+               class="blob-effect1"
+            />
+
+            <img
+               src="../img/blob-effect.png"
+               alt="Blob Effect"
+               class="blob-effect2"
+            />
+
+            <img
+               src="../img/blob-effect.png"
+               alt="Blob Effect"
+               class="blob-effect3 d-md-none d-block"
+            />
+
+            <img
+               src="../img/blob-effect.png"
+               alt="Blob Effect"
+               class="blob-effect4 d-md-none d-block"
+            />
+         </div>
+      </div>
+
+      <!-- Page Loader Start -->
+      <!-- <div
+         id="page-loader"
+         class="position-fixed top-0 start-0 w-100 min-vh-100 bg-white d-flex justify-content-center align-items-center"
+         style="z-index: 9999"
+      >
+         <div
+            class="spinner-border text-black"
+            style="width: 2.5rem; height: 2.5rem"
+            role="status"
+         ></div>
+      </div> -->
+      <!-- Page Loader End -->
+
+      <!-- JavaScript Scripts -->
+      <script src="../js/main.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js"></script>
    </body>
 </html>

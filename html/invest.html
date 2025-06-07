@@ -360,562 +360,395 @@
                   </p>
                </section>
 
-               <!-- Account Details Section -->
+               <!-- Investment Cards Section -->
                <section
                   class="container-fluid mt-5 px-3 z-3 position-relative account-details"
                >
-                  <div class="row g-4 justify-content-end">
-                     <div class="col-lg-6 d-grid">
-                        <div class="px-4 py-3 bg-yellow-gradient">
-                           <div
-                              class="d-flex align-items-start gap-3 justify-content-between"
+                  <div class="mt-4">
+                     <ul
+                        class="nav nav-pills mb-5 p-0 d-md-flex d-none"
+                        id="pills-tab"
+                        role="tablist"
+                     >
+                        <li class="nav-item" role="presentation">
+                           <button
+                              class="nav-link active text-white-50 fw-semibold small py-1"
+                              id="pill-smartInvest-tab"
+                              data-bs-toggle="pill"
+                              data-bs-target="#pill-smartInvest"
+                              type="button"
+                              role="tab"
+                              aria-controls="pill-smartInvest"
+                              aria-selected="true"
                            >
-                              <h6 class="fw-semibold text-black fs-20">
-                                 Quantitative Account
-                              </h6>
-
-                              <button
-                                 class="btn fw-semibold fs-20 bg-light text-black py-0 px-3 border-0 inner-shadow"
-                              >
-                                 VIP 2
-                              </button>
-                           </div>
-
-                           <div class="mt-sm-4 mt-3">
-                              <h5 class="text-black-50 fw-semibold mb-0">
-                                 Profit Assets
-                              </h5>
-                              <p
-                                 class="mb-0 fw-semibold sub-heading3 text-black"
-                              >
-                                 2,430.56 USDT
-                              </p>
-                           </div>
-
-                           <div class="mt-sm-3 mt-2">
-                              <h5 class="text-black-50 fw-semibold mb-0">
-                                 Total Revenue
-                              </h5>
-                              <p
-                                 class="mb-0 fw-semibold sub-heading3 text-black"
-                              >
-                                 200.34 USDT
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-
-                     <div class="col-lg-6">
+                              Smart Investment
+                           </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                           <button
+                              class="nav-link text-white-50 fw-semibold small py-1"
+                              type="button"
+                           >
+                              Track Record
+                           </button>
+                        </li>
+                     </ul>
+                     <div class="tab-content" id="pills-tabContent">
                         <div
-                           class="rounded-22 px-4 py-3 custom-border cards-bg"
+                           class="tab-pane fade show active"
+                           id="pill-smartInvest"
+                           role="tabpanel"
+                           aria-labelledby="pill-smartInvest-tab"
+                           tabindex="0"
                         >
-                           <div class="row">
-                              <div class="col-xxl-8 col-6">
-                                 <div>
-                                    <h6
-                                       class="fw-semibold fs-20 gray-color mb-0"
+                           <div class="row gy-4">
+                              <div class="col-xl-4 col-md-6 d-grid">
+                                 <div
+                                    class="rounded-22 px-3 py-4 custom-border cards-bg"
+                                 >
+                                    <div
+                                       class="d-flex gap-2 align-items-center mb-md-4 mb-3"
                                     >
-                                       Trial Fee
-                                    </h6>
-                                    <p class="mb-0 fw-semibold sub-heading3">
-                                       0
-                                    </p>
-                                 </div>
+                                       <img
+                                          src="../img/icons/ic-bitcoin.svg"
+                                          alt="Bitcoin"
+                                       />
+                                       <h5
+                                          class="fs-20 text-white mb-0 fw-bold"
+                                       >
+                                          Investment Funds 5
+                                       </h5>
+                                    </div>
 
-                                 <div class="my-3">
-                                    <h6
-                                       class="fw-semibold fs-20 gray-color mb-0"
-                                    >
-                                       Today's Earnings
-                                    </h6>
-                                    <p class="mb-0 fw-semibold sub-heading3">
-                                       0
-                                    </p>
-                                 </div>
+                                    <div class="row gy-3">
+                                       <div class="col-6">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Price
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-white"
+                                          >
+                                             20,000 USDT
+                                          </p>
+                                       </div>
 
-                                 <div>
-                                    <h6
-                                       class="fw-semibold fs-20 gray-color mb-0"
-                                    >
-                                       Quantifiable Number Of Days
-                                    </h6>
-                                    <p class="mb-0 fw-semibold sub-heading3">
-                                       0
-                                    </p>
+                                       <div class="col-6 text-end">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Daily Rate
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-green"
+                                          >
+                                             30.00%
+                                          </p>
+                                       </div>
+
+                                       <div class="col-6">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Cycle
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-white"
+                                          >
+                                             60 Days
+                                          </p>
+                                       </div>
+
+                                       <div class="col-12">
+                                          <button
+                                             class="btn blue-gradient-btn fw-semibold border-0 w-100 mt-3"
+                                          >
+                                             Invest
+                                          </button>
+                                       </div>
+                                    </div>
                                  </div>
                               </div>
 
-                              <div class="col-xxl-4 col-6">
-                                 <div>
-                                    <h6
-                                       class="fw-semibold fs-20 gray-color mb-0"
+                              <div class="col-xl-4 col-md-6 d-grid">
+                                 <div
+                                    class="rounded-22 px-3 py-4 custom-border cards-bg"
+                                 >
+                                    <div
+                                       class="d-flex gap-2 align-items-center mb-md-4 mb-3"
                                     >
-                                       Countdown Days
-                                    </h6>
-                                    <p class="mb-0 fw-semibold sub-heading3">
-                                       0
-                                    </p>
-                                 </div>
+                                       <img
+                                          src="../img/icons/ic-bitcoin.svg"
+                                          alt="Bitcoin"
+                                       />
+                                       <h5
+                                          class="fs-20 text-white mb-0 fw-bold"
+                                       >
+                                          Investment Funds 4
+                                       </h5>
+                                    </div>
 
-                                 <div class="mt-3">
-                                    <h6
-                                       class="fw-semibold fs-20 gray-color mb-0"
+                                    <div class="row gy-3">
+                                       <div class="col-6">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Price
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-white"
+                                          >
+                                             5,000 USDT
+                                          </p>
+                                       </div>
+
+                                       <div class="col-6 text-end">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Daily Rate
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-green"
+                                          >
+                                             26.00%
+                                          </p>
+                                       </div>
+
+                                       <div class="col-6">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Cycle
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-white"
+                                          >
+                                             45 Days
+                                          </p>
+                                       </div>
+
+                                       <div class="col-12">
+                                          <button
+                                             class="btn blue-gradient-btn fw-semibold border-0 w-100 mt-3"
+                                          >
+                                             Invest
+                                          </button>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+
+                              <div class="col-xl-4 col-md-6 d-grid">
+                                 <div
+                                    class="rounded-22 px-3 py-4 custom-border cards-bg"
+                                 >
+                                    <div
+                                       class="d-flex gap-2 align-items-center mb-md-4 mb-3"
                                     >
-                                       Quantify Reset Time
-                                    </h6>
-                                    <p class="mb-0 fw-semibold sub-heading3">
-                                       0
-                                    </p>
+                                       <img
+                                          src="../img/icons/ic-bitcoin.svg"
+                                          alt="Bitcoin"
+                                       />
+                                       <h5
+                                          class="fs-20 text-white mb-0 fw-bold"
+                                       >
+                                          Investment Funds 3
+                                       </h5>
+                                    </div>
+
+                                    <div class="row gy-3">
+                                       <div class="col-6">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Price
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-white"
+                                          >
+                                             2,000 USDT
+                                          </p>
+                                       </div>
+
+                                       <div class="col-6 text-end">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Daily Rate
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-green"
+                                          >
+                                             23.00%
+                                          </p>
+                                       </div>
+
+                                       <div class="col-6">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Cycle
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-white"
+                                          >
+                                             30 Days
+                                          </p>
+                                       </div>
+
+                                       <div class="col-12">
+                                          <button
+                                             class="btn blue-gradient-btn fw-semibold border-0 w-100 mt-3"
+                                          >
+                                             Invest
+                                          </button>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+
+                              <div class="col-xl-4 col-md-6 d-grid">
+                                 <div
+                                    class="rounded-22 px-3 py-4 custom-border cards-bg"
+                                 >
+                                    <div
+                                       class="d-flex gap-2 align-items-center mb-md-4 mb-3"
+                                    >
+                                       <img
+                                          src="../img/icons/ic-bitcoin.svg"
+                                          alt="Bitcoin"
+                                       />
+                                       <h5
+                                          class="fs-20 text-white mb-0 fw-bold"
+                                       >
+                                          Investment Funds 2
+                                       </h5>
+                                    </div>
+
+                                    <div class="row gy-3">
+                                       <div class="col-6">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Price
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-white"
+                                          >
+                                             500 USDT
+                                          </p>
+                                       </div>
+
+                                       <div class="col-6 text-end">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Daily Rate
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-green"
+                                          >
+                                             20.00%
+                                          </p>
+                                       </div>
+
+                                       <div class="col-6">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Cycle
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-white"
+                                          >
+                                             15 Days
+                                          </p>
+                                       </div>
+
+                                       <div class="col-12">
+                                          <button
+                                             class="btn blue-gradient-btn fw-semibold border-0 w-100 mt-3"
+                                          >
+                                             Invest
+                                          </button>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+
+                              <div class="col-xl-4 col-md-6 d-grid">
+                                 <div
+                                    class="rounded-22 px-3 py-4 custom-border cards-bg"
+                                 >
+                                    <div
+                                       class="d-flex gap-2 align-items-center mb-md-4 mb-3"
+                                    >
+                                       <img
+                                          src="../img/icons/ic-bitcoin.svg"
+                                          alt="Bitcoin"
+                                       />
+                                       <h5
+                                          class="fs-20 text-white mb-0 fw-bold"
+                                       >
+                                          Investment Funds 1
+                                       </h5>
+                                    </div>
+
+                                    <div class="row gy-3">
+                                       <div class="col-6">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Price
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-white"
+                                          >
+                                             100 USDT
+                                          </p>
+                                       </div>
+
+                                       <div class="col-6 text-end">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Daily Rate
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-green"
+                                          >
+                                             18.00%
+                                          </p>
+                                       </div>
+
+                                       <div class="col-6">
+                                          <h6
+                                             class="fw-bold mb-1 fs-20 gray-color"
+                                          >
+                                             Cycle
+                                          </h6>
+                                          <p
+                                             class="mb-0 fs-20 fw-semibold text-white"
+                                          >
+                                             7 Days
+                                          </p>
+                                       </div>
+
+                                       <div class="col-12">
+                                          <button
+                                             class="btn blue-gradient-btn fw-semibold border-0 w-100 mt-3"
+                                          >
+                                             Invest
+                                          </button>
+                                       </div>
+                                    </div>
                                  </div>
                               </div>
                            </div>
                         </div>
                      </div>
-
-                     <div class="col-lg-6">
-                        <button
-                           class="btn blue-gradient-btn fw-semibold border-0 w-100"
-                        >
-                           0/1 Start Quantify
-                        </button>
-                     </div>
-                  </div>
-               </section>
-
-               <!-- VIPO Cards Section -->
-               <section
-                  class="mt-5 pt-md-5 pt-sm-4 px-3 z-3 position-relative vipo-cards"
-               >
-                  <div class="px-4 py-3 custom-border rounded-22 cards-bg">
-                     <h5 class="text-uppercase fw-bold purple-color fs-24 mb-3">
-                        vipo
-                     </h5>
-
-                     <div
-                        class="d-flex align-items-center gap-3 justify-content-between"
-                     >
-                        <p class="fs-20 fw-semibold gray-color mb-0">
-                           Quantification Times Per Day
-                        </p>
-
-                        <p class="fs-20 fw-bold mb-0">1</p>
-                     </div>
-
-                     <img
-                        src="../img/icons/divider.svg"
-                        alt="Divider Line"
-                        class="w-100 d-sm-none d-block mt-2"
-                        height="3"
-                     />
-
-                     <div
-                        class="d-flex align-items-center gap-3 justify-content-between mt-3"
-                     >
-                        <p class="fs-20 fw-semibold gray-color mb-0">
-                           Profit Ratio
-                        </p>
-
-                        <p class="fs-20 fw-bold mb-0">15.000% ~ 15.000%</p>
-                     </div>
-
-                     <img
-                        src="../img/icons/divider.svg"
-                        alt="Divider Line"
-                        class="w-100 d-sm-none d-block mt-2"
-                        height="3"
-                     />
-
-                     <div
-                        class="d-flex align-items-center gap-3 justify-content-between mt-3"
-                     >
-                        <p class="fs-20 fw-semibold gray-color mb-0">
-                           Minimum Unlock Amount
-                        </p>
-
-                        <p class="fs-20 fw-bold mb-0">≥0.00 USDT</p>
-                     </div>
-
-                     <img
-                        src="../img/icons/divider.svg"
-                        alt="Divider Line"
-                        class="w-100 d-sm-none d-block mt-2"
-                        height="3"
-                     />
-
-                     <div
-                        class="d-flex align-items-center gap-3 justify-content-between mt-3"
-                     >
-                        <p class="fs-20 fw-semibold gray-color mb-0">
-                           Promoter
-                        </p>
-
-                        <p class="fs-20 fw-bold mb-0">≥0 Person</p>
-                     </div>
-
-                     <img
-                        src="../img/icons/divider.svg"
-                        alt="Divider Line"
-                        class="w-100 d-sm-none d-block mt-2"
-                        height="3"
-                     />
-
-                     <div
-                        class="d-flex align-items-center gap-3 justify-content-between mt-3"
-                     >
-                        <p class="fs-20 fw-semibold gray-color mb-0">
-                           Quantifiable Number Of Days
-                        </p>
-
-                        <p class="fs-20 fw-bold mb-0">7</p>
-                     </div>
-
-                     <img
-                        src="../img/icons/divider.svg"
-                        alt="Divider Line"
-                        class="w-100 d-sm-none d-block mt-2"
-                        height="3"
-                     />
-
-                     <div
-                        class="d-flex align-items-center gap-3 justify-content-between mt-3"
-                     >
-                        <p class="fs-20 fw-semibold gray-color mb-0">
-                           Service Charge
-                        </p>
-
-                        <p class="fs-20 fw-bold mb-0">5%</p>
-                     </div>
-
-                     <img
-                        src="../img/icons/divider.svg"
-                        alt="Divider Line"
-                        class="w-100 d-sm-none d-block mt-2"
-                        height="3"
-                     />
-                  </div>
-
-                  <div class="px-4 py-3 custom-border rounded-22 cards-bg mt-4">
-                     <h5 class="text-uppercase fw-bold purple-color fs-24 mb-3">
-                        vipo
-                     </h5>
-
-                     <div
-                        class="d-flex align-items-center gap-3 justify-content-between"
-                     >
-                        <p class="fs-20 fw-semibold gray-color mb-0">
-                           Quantification Times Per Day
-                        </p>
-
-                        <p class="fs-20 fw-bold mb-0">1</p>
-                     </div>
-
-                     <img
-                        src="../img/icons/divider.svg"
-                        alt="Divider Line"
-                        class="w-100 d-sm-none d-block mt-2"
-                        height="3"
-                     />
-
-                     <div
-                        class="d-flex align-items-center gap-3 justify-content-between mt-3"
-                     >
-                        <p class="fs-20 fw-semibold gray-color mb-0">
-                           Profit Ratio
-                        </p>
-
-                        <p class="fs-20 fw-bold mb-0">15.000% ~ 15.000%</p>
-                     </div>
-
-                     <img
-                        src="../img/icons/divider.svg"
-                        alt="Divider Line"
-                        class="w-100 d-sm-none d-block mt-2"
-                        height="3"
-                     />
-
-                     <div
-                        class="d-flex align-items-center gap-3 justify-content-between mt-3"
-                     >
-                        <p class="fs-20 fw-semibold gray-color mb-0">
-                           Minimum Unlock Amount
-                        </p>
-
-                        <p class="fs-20 fw-bold mb-0">≥0.00 USDT</p>
-                     </div>
-
-                     <img
-                        src="../img/icons/divider.svg"
-                        alt="Divider Line"
-                        class="w-100 d-sm-none d-block mt-2"
-                        height="3"
-                     />
-
-                     <div
-                        class="d-flex align-items-center gap-3 justify-content-between mt-3"
-                     >
-                        <p class="fs-20 fw-semibold gray-color mb-0">
-                           Promoter
-                        </p>
-
-                        <p class="fs-20 fw-bold mb-0">≥0 Person</p>
-                     </div>
-
-                     <img
-                        src="../img/icons/divider.svg"
-                        alt="Divider Line"
-                        class="w-100 d-sm-none d-block mt-2"
-                        height="3"
-                     />
-
-                     <div
-                        class="d-flex align-items-center gap-3 justify-content-between mt-3"
-                     >
-                        <p class="fs-20 fw-semibold gray-color mb-0">
-                           Quantifiable Number Of Days
-                        </p>
-
-                        <p class="fs-20 fw-bold mb-0">7</p>
-                     </div>
-
-                     <img
-                        src="../img/icons/divider.svg"
-                        alt="Divider Line"
-                        class="w-100 d-sm-none d-block mt-2"
-                        height="3"
-                     />
-
-                     <div
-                        class="d-flex align-items-center gap-3 justify-content-between mt-3"
-                     >
-                        <p class="fs-20 fw-semibold gray-color mb-0">
-                           Service Charge
-                        </p>
-
-                        <p class="fs-20 fw-bold mb-0">5%</p>
-                     </div>
-
-                     <img
-                        src="../img/icons/divider.svg"
-                        alt="Divider Line"
-                        class="w-100 d-sm-none d-block mt-2"
-                        height="3"
-                     />
-                  </div>
-
-                  <div class="px-4 py-3 custom-border rounded-22 cards-bg mt-4">
-                     <h5 class="text-uppercase fw-bold purple-color fs-24 mb-3">
-                        vipo
-                     </h5>
-
-                     <div
-                        class="d-flex align-items-center gap-3 justify-content-between"
-                     >
-                        <p class="fs-20 fw-semibold gray-color mb-0">
-                           Quantification Times Per Day
-                        </p>
-
-                        <p class="fs-20 fw-bold mb-0">1</p>
-                     </div>
-
-                     <img
-                        src="../img/icons/divider.svg"
-                        alt="Divider Line"
-                        class="w-100 d-sm-none d-block mt-2"
-                        height="3"
-                     />
-
-                     <div
-                        class="d-flex align-items-center gap-3 justify-content-between mt-3"
-                     >
-                        <p class="fs-20 fw-semibold gray-color mb-0">
-                           Profit Ratio
-                        </p>
-
-                        <p class="fs-20 fw-bold mb-0">15.000% ~ 15.000%</p>
-                     </div>
-
-                     <img
-                        src="../img/icons/divider.svg"
-                        alt="Divider Line"
-                        class="w-100 d-sm-none d-block mt-2"
-                        height="3"
-                     />
-
-                     <div
-                        class="d-flex align-items-center gap-3 justify-content-between mt-3"
-                     >
-                        <p class="fs-20 fw-semibold gray-color mb-0">
-                           Minimum Unlock Amount
-                        </p>
-
-                        <p class="fs-20 fw-bold mb-0">≥0.00 USDT</p>
-                     </div>
-
-                     <img
-                        src="../img/icons/divider.svg"
-                        alt="Divider Line"
-                        class="w-100 d-sm-none d-block mt-2"
-                        height="3"
-                     />
-
-                     <div
-                        class="d-flex align-items-center gap-3 justify-content-between mt-3"
-                     >
-                        <p class="fs-20 fw-semibold gray-color mb-0">
-                           Promoter
-                        </p>
-
-                        <p class="fs-20 fw-bold mb-0">≥0 Person</p>
-                     </div>
-
-                     <img
-                        src="../img/icons/divider.svg"
-                        alt="Divider Line"
-                        class="w-100 d-sm-none d-block mt-2"
-                        height="3"
-                     />
-
-                     <div
-                        class="d-flex align-items-center gap-3 justify-content-between mt-3"
-                     >
-                        <p class="fs-20 fw-semibold gray-color mb-0">
-                           Quantifiable Number Of Days
-                        </p>
-
-                        <p class="fs-20 fw-bold mb-0">7</p>
-                     </div>
-
-                     <img
-                        src="../img/icons/divider.svg"
-                        alt="Divider Line"
-                        class="w-100 d-sm-none d-block mt-2"
-                        height="3"
-                     />
-
-                     <div
-                        class="d-flex align-items-center gap-3 justify-content-between mt-3"
-                     >
-                        <p class="fs-20 fw-semibold gray-color mb-0">
-                           Service Charge
-                        </p>
-
-                        <p class="fs-20 fw-bold mb-0">5%</p>
-                     </div>
-
-                     <img
-                        src="../img/icons/divider.svg"
-                        alt="Divider Line"
-                        class="w-100 d-sm-none d-block mt-2"
-                        height="3"
-                     />
-                  </div>
-
-                  <div class="px-4 py-3 custom-border rounded-22 cards-bg mt-4">
-                     <h5 class="text-uppercase fw-bold purple-color fs-24 mb-3">
-                        vipo
-                     </h5>
-
-                     <div
-                        class="d-flex align-items-center gap-3 justify-content-between"
-                     >
-                        <p class="fs-20 fw-semibold gray-color mb-0">
-                           Quantification Times Per Day
-                        </p>
-
-                        <p class="fs-20 fw-bold mb-0">1</p>
-                     </div>
-
-                     <img
-                        src="../img/icons/divider.svg"
-                        alt="Divider Line"
-                        class="w-100 d-sm-none d-block mt-2"
-                        height="3"
-                     />
-
-                     <div
-                        class="d-flex align-items-center gap-3 justify-content-between mt-3"
-                     >
-                        <p class="fs-20 fw-semibold gray-color mb-0">
-                           Profit Ratio
-                        </p>
-
-                        <p class="fs-20 fw-bold mb-0">15.000% ~ 15.000%</p>
-                     </div>
-
-                     <img
-                        src="../img/icons/divider.svg"
-                        alt="Divider Line"
-                        class="w-100 d-sm-none d-block mt-2"
-                        height="3"
-                     />
-
-                     <div
-                        class="d-flex align-items-center gap-3 justify-content-between mt-3"
-                     >
-                        <p class="fs-20 fw-semibold gray-color mb-0">
-                           Minimum Unlock Amount
-                        </p>
-
-                        <p class="fs-20 fw-bold mb-0">≥0.00 USDT</p>
-                     </div>
-
-                     <img
-                        src="../img/icons/divider.svg"
-                        alt="Divider Line"
-                        class="w-100 d-sm-none d-block mt-2"
-                        height="3"
-                     />
-
-                     <div
-                        class="d-flex align-items-center gap-3 justify-content-between mt-3"
-                     >
-                        <p class="fs-20 fw-semibold gray-color mb-0">
-                           Promoter
-                        </p>
-
-                        <p class="fs-20 fw-bold mb-0">≥0 Person</p>
-                     </div>
-
-                     <img
-                        src="../img/icons/divider.svg"
-                        alt="Divider Line"
-                        class="w-100 d-sm-none d-block mt-2"
-                        height="3"
-                     />
-
-                     <div
-                        class="d-flex align-items-center gap-3 justify-content-between mt-3"
-                     >
-                        <p class="fs-20 fw-semibold gray-color mb-0">
-                           Quantifiable Number Of Days
-                        </p>
-
-                        <p class="fs-20 fw-bold mb-0">7</p>
-                     </div>
-
-                     <img
-                        src="../img/icons/divider.svg"
-                        alt="Divider Line"
-                        class="w-100 d-sm-none d-block mt-2"
-                        height="3"
-                     />
-
-                     <div
-                        class="d-flex align-items-center gap-3 justify-content-between mt-3"
-                     >
-                        <p class="fs-20 fw-semibold gray-color mb-0">
-                           Service Charge
-                        </p>
-
-                        <p class="fs-20 fw-bold mb-0">5%</p>
-                     </div>
-
-                     <img
-                        src="../img/icons/divider.svg"
-                        alt="Divider Line"
-                        class="w-100 d-sm-none d-block mt-2"
-                        height="3"
-                     />
                   </div>
                </section>
             </div>
@@ -950,7 +783,7 @@
       </div>
 
       <!-- Page Loader Start -->
-      <!-- <div
+      <div
          id="page-loader"
          class="position-fixed top-0 start-0 w-100 min-vh-100 bg-white d-flex justify-content-center align-items-center"
          style="z-index: 9999"
@@ -960,7 +793,7 @@
             style="width: 2.5rem; height: 2.5rem"
             role="status"
          ></div>
-      </div> -->
+      </div>
       <!-- Page Loader End -->
 
       <!-- JavaScript Scripts -->
