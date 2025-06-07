@@ -352,6 +352,17 @@ header nav .offcanvas-body ul li .nav-link.active {
    background-position: center;
 }
 
+.about-cards {
+   backdrop-filter: blur(120.5999984741211px);
+   background: linear-gradient(
+      108.47deg,
+      rgba(46, 28, 49, 0.39) -2.23%,
+      rgba(46, 28, 49, 0.39) 12.66%,
+      rgba(140, 87, 151, 0.0702) 97.71%
+   );
+   border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
 .gradient-heading {
    background: linear-gradient(90deg, #ea60ff -12.89%, #5246ff 95.18%);
    -webkit-background-clip: text;
@@ -611,5 +622,10 @@ header nav .offcanvas-body ul li .nav-link.active {
 
    .login-card * {
       font-size: var(--fs-14) !important;
+   }
+
+   .about-cards *,
+   .core-finance * {
+      font-size: var(--fs-12);
    }
 }
