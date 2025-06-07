@@ -282,7 +282,8 @@ header nav .offcanvas-body ul li .nav-link.active {
 .help-hero-sec,
 .recharge-hero-sec,
 .team-hero-sec,
-.invest-hero-sec {
+.invest-hero-sec,
+.agent-hero-sec {
    height: 170px;
    background-repeat: no-repeat;
    background-position: center;
@@ -303,6 +304,11 @@ header nav .offcanvas-body ul li .nav-link.active {
 /* Invest Page CSS */
 .invest-hero-sec {
    background-image: url(../img/hero-img/recharge.png);
+}
+
+/* Agent Page CSS */
+.agent-hero-sec {
+   background-image: url(../img/hero-img/agent.png);
 }
 
 /* Dashboard Page CSS */
@@ -574,7 +580,8 @@ header nav .offcanvas-body ul li .nav-link.active {
    .help-hero-sec,
    .recharge-hero-sec,
    .team-hero-sec,
-   .invest-hero-sec {
+   .invest-hero-sec,
+   .agent-hero-sec {
       margin-top: 70px;
    }
 
