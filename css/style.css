@@ -422,6 +422,7 @@ header nav .offcanvas-body ul li .nav-link.active {
 .table > :not(caption) > * > * {
    background: transparent !important;
    border: 0;
+   vertical-align: center;
 }
 
 .login-bg {
@@ -475,6 +476,10 @@ header nav .offcanvas-body ul li .nav-link.active {
    .right-content .header-menu {
       font-size: var(--fs-14);
    }
+
+   .table * {
+      font-size: var(--fs-16) !important;
+   }
 }
 
 /* Large Tablet Screen */
@@ -489,6 +494,14 @@ header nav .offcanvas-body ul li .nav-link.active {
 
    .fs-20 {
       font-size: var(--fs-18);
+   }
+
+   .table * {
+      font-size: var(--fs-12) !important;
+   }
+
+   .table * img {
+      width: 16px;
    }
 }
 
@@ -580,6 +593,9 @@ header nav .offcanvas-body ul li .nav-link.active {
    .login-bg header .navbar-brand {
       visibility: hidden;
    }
+   .divider {
+      height: 175px;
+   }
 }
 
 /* Mobile Screen */
@@ -627,5 +643,28 @@ header nav .offcanvas-body ul li .nav-link.active {
    .about-cards *,
    .core-finance * {
       font-size: var(--fs-12);
+   }
+
+   .table * {
+      font-size: 10px !important;
+   }
+
+   .table * img {
+      width: 12px;
+   }
+}
+
+@media only screen and (max-width: 440px) {
+   .table2 {
+      display: none !important;
+   }
+
+   .table1 {
+      width: 100% !important;
+      margin-top: 20px;
+   }
+
+   .table1 > img {
+      display: none;
    }
 }
