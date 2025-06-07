@@ -311,6 +311,10 @@ header nav .offcanvas-body ul li .nav-link.active {
    background-image: url(../img/hero-img/agent.png);
 }
 
+.bg-purple {
+   background: var(--purple-color);
+}
+
 /* Dashboard Page CSS */
 .dashboard-bg-img1 {
    background-image: url(../img/dashboard-imgs/1.png);
