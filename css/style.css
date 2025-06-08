@@ -283,7 +283,8 @@ header nav .offcanvas-body ul li .nav-link.active {
 .recharge-hero-sec,
 .team-hero-sec,
 .invest-hero-sec,
-.agent-hero-sec {
+.agent-hero-sec,
+.invite-hero-sec {
    height: 170px;
    background-repeat: no-repeat;
    background-position: center;
@@ -309,6 +310,11 @@ header nav .offcanvas-body ul li .nav-link.active {
 /* Agent Page CSS */
 .agent-hero-sec {
    background-image: url(../img/hero-img/agent.png);
+}
+
+/* Agent Page CSS */
+.invite-hero-sec {
+   background-image: url(../img/hero-img/invite.png);
 }
 
 .bg-purple {
@@ -585,7 +591,8 @@ header nav .offcanvas-body ul li .nav-link.active {
    .recharge-hero-sec,
    .team-hero-sec,
    .invest-hero-sec,
-   .agent-hero-sec {
+   .agent-hero-sec,
+   .invite-hero-sec {
       margin-top: 70px;
    }
 
@@ -662,6 +669,20 @@ header nav .offcanvas-body ul li .nav-link.active {
 
    .table * img {
       width: 12px;
+   }
+
+   .agent-content p,
+   .agent-content ul li {
+      font-size: var(--fs-14) !important;
+   }
+
+   .mobile-bar ul li {
+      font-size: var(--fs-12);
+   }
+
+   .mobile-bar ul li a.active {
+      color: var(--purple-color) !important
+      ;
    }
 }
 
